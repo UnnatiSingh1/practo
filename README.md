@@ -33,29 +33,7 @@ A modern web application that replicates the core functionality of Practo. It al
 | JavaScript     | App logic and state management         |
 | VS Code        | Code editor                            |
 
----
-
-## 📂 Folder Structure
-
-/practo
-│
-├── /src
-│ ├── /assets/ → App images
-│ ├── /mycomponents/ → Navbar, SignUp, etc.
-│ │ └── /pages/ → Doctor and Patient components
-│ ├── App.js → Routes and main layout
-│ └── index.js → Entry point
-│
-├── public/
-├── .gitignore
-├── README.md
-└── package.json
----
-
-## 📸 Screenshots (optional)
-
-
----
+--
 
 ## 💻 How to Run Locally
 
