@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import SignUp from './mycomponents/pages/SignUp.js';
+
 import './App.css';
 import { Link } from 'react-router-dom';
 import Navbar from './mycomponents/Navbar.js';
@@ -19,7 +19,7 @@ function App() {
 <hr style={{ margin: 0, borderTop: '1px solid #666' }} />
           <Routes>
        
-        <Route path="/register" element={<SignUp />} />
+
       <Route path="/login" element={<LoginRegister />} />
        <Route path="/doctor-register" element={<DoctorRegister />} />
        <Route path="/find-doctors" element={<FindDoctors />} />
